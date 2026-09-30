@@ -1,0 +1,17 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+psycopg2-binary==2.9.9
+pgvector==0.3.4
+python-dotenv==1.0.1
+pydantic==2.9.2
+python-multipart==0.0.9
+
+# LangChain: solo se usa para las llamadas al LLM (extraccion
+# estructurada y generacion de embeddings), no para manejar la base.
+langchain==0.3.7
+langchain-openai==0.2.6
+langchain-text-splitters==0.3.0
+
+# Parseo de CVs
+pypdf==5.0.1
+python-docx==1.1.2
